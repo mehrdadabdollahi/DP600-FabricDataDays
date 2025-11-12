@@ -4,6 +4,30 @@
   "name": "LoadFinancialData",
   "queryGroups": [],
   "documentLocale": "en-GB",
-  "queriesMetadata": {},
-  "connections": []
+  "queriesMetadata": {
+    "DefaultDestination": {
+      "queryId": "90e1d84e-1e54-47d0-9179-a54ec8a3628e",
+      "queryName": "DefaultDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    },
+    "StockMarket": {
+      "queryId": "faab6600-6d01-49bb-a352-dde188d46f8b",
+      "queryName": "StockMarket",
+      "loadEnabled": false
+    },
+    "StockMarket_DataDestination": {
+      "queryId": "774442a8-6fc6-483b-841a-4fb3a5c22cbe",
+      "queryName": "StockMarket_DataDestination",
+      "isHidden": true,
+      "loadEnabled": false
+    }
+  },
+  "connections": [
+    {
+      "path": "Lakehouse",
+      "kind": "Lakehouse",
+      "connectionId": "{\"ClusterId\":\"c872ee6e-2526-476a-a999-9ffcf0c8c79c\",\"DatasourceId\":\"3f8ede2f-d197-418a-a826-35c97c60788c\"}"
+    }
+  ]
 }
