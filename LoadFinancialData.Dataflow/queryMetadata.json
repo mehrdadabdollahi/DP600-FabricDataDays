@@ -1,0 +1,9 @@
+{
+  "formatVersion": "202502",
+  "computeEngineSettings": {},
+  "name": "LoadFinancialData",
+  "queryGroups": [],
+  "documentLocale": "en-GB",
+  "queriesMetadata": {},
+  "connections": []
+}

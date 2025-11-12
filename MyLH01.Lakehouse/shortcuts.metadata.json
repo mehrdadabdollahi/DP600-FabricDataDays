@@ -1,0 +1,14 @@
+[
+  {
+    "name": "data",
+    "path": "/Tables",
+    "target": {
+      "type": "AdlsGen2",
+      "adlsGen2": {
+        "connectionId": "14a6be18-9961-49d0-8faf-87b1af9cfe97",
+        "location": "https://fabsa01.dfs.core.windows.net",
+        "subpath": "/data"
+      }
+    }
+  }
+]
