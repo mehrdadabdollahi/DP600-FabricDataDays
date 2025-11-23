@@ -1,5 +1,18 @@
 [
   {
+    "name": "dimension_city",
+    "path": "/Tables",
+    "target": {
+      "type": "OneLake",
+      "oneLake": {
+        "path": "Tables/dbo/dimension_city",
+        "itemId": "7c673a14-f430-adcb-4bd3-c437072a3e0a",
+        "workspaceId": "00000000-0000-0000-0000-000000000000",
+        "artifactType": "Warehouse"
+      }
+    }
+  },
+  {
     "name": "data",
     "path": "/Tables",
     "target": {
